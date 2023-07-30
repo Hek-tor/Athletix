@@ -1,0 +1,111 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn_hamburguesa {
+    color: #133579;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #192A4D;
+}
+
+.banner {
+    margin-top: 85px;
+    display: flex;
+    position: relative;
+    background-image: url(../img/banner.webp);
+    background-size: cover;
+    height: 180px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 167px;
+    padding-top: 35px;
+    font-size: 18px;
+}
+
+.icon {
+    padding: 10px;
+    width: 125px;
+}
+
+.banner_parallax {
+    display: flex;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 360px;
+    background-position: center;
+    background-image: url(../img/banner-2.webp);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.banner_parallax p {
+    padding: 30px;
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    font-size: 20px;
+}
+
+.img_carrusel {
+    width: 100%;
+    height: 95%;
+}
+
+.contactenos h2 {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.redes {
+    width: 78px;
+    height: 76px;
+}
+
+.btn_formulario {
+    font-size: 20px;
+    padding: 15px 45px 15px 45px;
+    background-color: #FCB136;
+    border: 2px solid #192A4D;
+}
+
+.btn_formulario:hover {
+    background-color: #FDC568;
+    border: 2px solid #192A4D;
+}
+
+.scroll_btn {
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #192A4D;
+    height: 240px;
+}
+
+.logo2 {
+    height: 75px;
+    width: 190px;
+}
